@@ -1,3 +1,4 @@
+import { TopMenu } from "@/features"
 
 const ShopLayout = ({
    children,
@@ -5,7 +6,12 @@ const ShopLayout = ({
    children: React.ReactNode
 }) => {
    return (
-      <main className="bg-red-500 min-h-screen">{ children }</main>
+      <main className="min-h-screen">
+
+         <TopMenu/>
+         { children }
+
+      </main>
    )
 }
 

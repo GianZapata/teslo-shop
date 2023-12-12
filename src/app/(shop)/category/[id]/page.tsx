@@ -1,7 +1,21 @@
+import { notFound } from "next/navigation"
+import { FC } from "react"
 
-const CategoryPage = () => {
+interface CategoryPageProps {
+   params: {
+      id: string 
+   }
+}
+
+const CategoryPage: FC<CategoryPageProps> = ({ params }) => {   
+
+   const { id } = params
+
+   if ( id === 'kids' ) notFound()
+
+
    return (
-      <div>CategoryPage</div>
+      <div>CategoryPage{id}</div>
    )
 }
 
