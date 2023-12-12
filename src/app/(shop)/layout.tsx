@@ -1,4 +1,4 @@
-import { TopMenu } from "@/features"
+import { TopMenu, Sidebar } from "@/features"
 
 const ShopLayout = ({
    children,
@@ -9,6 +9,8 @@ const ShopLayout = ({
       <main className="min-h-screen">
 
          <TopMenu/>
+
+         <Sidebar/>
          { children }
 
       </main>
