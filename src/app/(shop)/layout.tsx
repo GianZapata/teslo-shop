@@ -1,4 +1,4 @@
-import { TopMenu, Sidebar } from "@/features"
+import { TopMenu,Sidebar  } from "@/features"
 
 const ShopLayout = ({
    children,
@@ -10,8 +10,11 @@ const ShopLayout = ({
 
          <TopMenu/>
 
-         <Sidebar/>
-         { children }
+         <Sidebar />
+
+         <div className="px-0 md:px-10">
+            { children }
+         </div>
 
       </main>
    )
