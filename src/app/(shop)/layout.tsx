@@ -1,4 +1,5 @@
-import { TopMenu,Sidebar  } from "@/features"
+import {  TopMenu } from "@/features"
+import { Sidebar } from "@/features/presentation/components/ui/sidebar"
 
 const ShopLayout = ({
    children,

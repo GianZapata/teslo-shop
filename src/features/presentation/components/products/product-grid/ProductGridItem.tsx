@@ -1,9 +1,9 @@
 "use client"
 
-import { Product } from "@/features"
+import { FC, useState } from "react"
 import Image from "next/image"
 import Link from "next/link"
-import { FC, useState } from "react"
+import { Product } from "@/features"
 
 interface ProductGridItemProps {
    product: Product
