@@ -6,7 +6,7 @@ import Link from "next/link"
 import { IoCloseOutline, IoLogInOutline, IoLogOutOutline, IoPeopleOutline, IoPersonOutline, IoSearchOutline, IoShirtOutline, IoTicketOutline } from "react-icons/io5"
 
 import { Page } from "@/config"
-import { useUIStore } from "@/features/presentation"
+import { useUIStore } from "@/features"
 
 export const Sidebar = () => {
 
@@ -57,39 +57,39 @@ export const Sidebar = () => {
                />
             </div>
 
-            <Link href={Page.Home} className="flex items-center mt-10 order-2 hover:bg-gray-100 rounded transition-all">
+            <Link href={Page.Home} className="flex items-center mt-10 p-2 hover:bg-gray-100 rounded transition-all">
                <IoPersonOutline size={30} />
                <span className="ml-3 text-xl">Perfil</span>
             </Link>
 
-            <Link href={Page.Orders} className="flex items-center mt-10 order-2 hover:bg-gray-100 rounded transition-all">
+            <Link href={Page.Orders} className="flex items-center mt-10 p-2 hover:bg-gray-100 rounded transition-all">
                <IoTicketOutline size={30} />
                <span className="ml-3 text-xl">Ordenes</span>
             </Link>
 
-            <Link href={Page.AuthLogin} className="flex items-center mt-10 order-2 hover:bg-gray-100 rounded transition-all">
+            <Link href={Page.AuthLogin} className="flex items-center mt-10 p-2 hover:bg-gray-100 rounded transition-all">
                <IoLogInOutline size={30} />
                <span className="ml-3 text-xl">Ingresar</span>
             </Link>
 
-            <Link href={Page.AuthLogin} className="flex items-center mt-10 order-2 hover:bg-gray-100 rounded transition-all">
+            <Link href={Page.AuthLogin} className="flex items-center mt-10 p-2 hover:bg-gray-100 rounded transition-all">
                <IoLogOutOutline size={30} />
                <span className="ml-3 text-xl">Salir</span>
             </Link>
 
             <div className="w-full h-px bg-gray-200 my-10"/>
 
-            <Link href={Page.Products} className="flex items-center mt-10 order-2 hover:bg-gray-100 rounded transition-all">
+            <Link href={Page.Products} className="flex items-center mt-10 p-2 hover:bg-gray-100 rounded transition-all">
                <IoShirtOutline size={30} />
                <span className="ml-3 text-xl">Products</span>
             </Link>
 
-            <Link href={Page.Orders} className="flex items-center mt-10 order-2 hover:bg-gray-100 rounded transition-all">
+            <Link href={Page.Orders} className="flex items-center mt-10 p-2 hover:bg-gray-100 rounded transition-all">
                <IoTicketOutline size={30} />
                <span className="ml-3 text-xl">Ordenes</span>
             </Link>
 
-            <Link href={Page.AdminUsers} className="flex items-center mt-10 order-2 hover:bg-gray-100 rounded transition-all">
+            <Link href={Page.AdminUsers} className="flex items-center mt-10 p-2 hover:bg-gray-100 rounded transition-all">
                <IoPeopleOutline size={30} />
                <span className="ml-3 text-xl">Usuarios</span>
             </Link>
