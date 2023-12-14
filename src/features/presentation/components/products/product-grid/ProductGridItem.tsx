@@ -3,7 +3,8 @@
 import { FC, useState } from "react"
 import Image from "next/image"
 import Link from "next/link"
-import { Product } from "@/features"
+
+import { Product } from "@/features/domain"
 
 interface ProductGridItemProps {
    product: Product

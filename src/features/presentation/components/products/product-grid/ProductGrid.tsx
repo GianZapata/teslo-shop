@@ -7,7 +7,7 @@ interface ProductGridProps {
 }
 
 export const ProductGrid: FC<ProductGridProps> = ({ products }) => {
-  return (
+   return (
       <div className="grid grid-cols-2 md:grid-cols-3 gap-10 mb-10">
          {
             products.map( product => (
@@ -15,5 +15,5 @@ export const ProductGrid: FC<ProductGridProps> = ({ products }) => {
             ))
          }
       </div>
-  )
+   )
 }

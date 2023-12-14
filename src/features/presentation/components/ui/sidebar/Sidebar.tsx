@@ -1,12 +1,11 @@
 "use client"
 
-import { FC } from "react"
 import clsx from "clsx"
 import Link from "next/link"
 import { IoCloseOutline, IoLogInOutline, IoLogOutOutline, IoPeopleOutline, IoPersonOutline, IoSearchOutline, IoShirtOutline, IoTicketOutline } from "react-icons/io5"
 
-import { Page } from "@/config"
-import { useUIStore } from "@/features"
+import { Page } from "@/config/enums"
+import { useUIStore } from "@/features/presentation"
 
 export const Sidebar = () => {
 

@@ -1,5 +1,5 @@
 import { TopMenu } from "@/features/presentation"
-// import { Sidebar } from "@/features/presentation/components/ui/sidebar/Sidebar"
+import { Sidebar } from "@/features/presentation/components/ui/sidebar/Sidebar"
 
 const ShopLayout = ({
    children,
@@ -11,7 +11,7 @@ const ShopLayout = ({
 
          <TopMenu/>
 
-         {/* <Sidebar /> */}
+         <Sidebar />
 
          <div className="px-0 md:px-10">
             { children }

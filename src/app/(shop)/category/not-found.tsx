@@ -1,4 +1,4 @@
-import { PageNotFound } from "@/features"
+import { PageNotFound } from "@/features/presentation"
 
 const NotFoundPage = () => {
    return <PageNotFound/>
