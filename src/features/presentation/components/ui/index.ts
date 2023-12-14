@@ -1,3 +1,3 @@
-export * from './not-found'
-export * from './title'
-export * from './top-menu'
+export * from './not-found/PageNotFound'
+export * from './title/Title'
+export * from './top-menu/TopMenu'

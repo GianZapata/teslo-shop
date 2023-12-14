@@ -1,6 +1,8 @@
 import Link from "next/link"
 import Image from "next/image";
-import { Page, titleFont } from '@/config';
+
+import { titleFont } from "@/config/fonts";
+import { Page } from "@/config/enums";
 
 import starmanImage from '@/assets/images/starman_750x750.png'
 

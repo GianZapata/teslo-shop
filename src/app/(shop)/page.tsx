@@ -1,5 +1,5 @@
-import { initialData } from "@/config"
-import { ProductGrid, Title } from "@/features"
+import { initialData } from "@/config/seed"
+import { ProductGrid, Title } from "@/features/presentation"
 
 const products = initialData.products
 

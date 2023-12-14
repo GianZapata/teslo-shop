@@ -2,8 +2,11 @@
 
 import Link from "next/link"
 import { IoSearchOutline, IoCartOutline }from 'react-icons/io5'
-import { Page, titleFont } from "@/config"
-import { Category, useUIStore } from "@/features"
+
+import { useUIStore } from "@/features/presentation"
+import { Page } from "@/config/enums"
+import { titleFont } from "@/config/fonts"
+import { Category } from "@/features/domain"
 
 export const TopMenu = () => {
 

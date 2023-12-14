@@ -1,5 +1,5 @@
-import { titleFont } from "@/config";
 import { FC, HTMLAttributes } from "react";
+import { titleFont } from "@/config/fonts";
 
 interface TitleProps {
   title: string;
@@ -8,7 +8,6 @@ interface TitleProps {
 }
 
 export const Title: FC<TitleProps> = ({ title, className, subtitle }) => {
-  
   return (
     <div className={`mt-3 ${ className}`}>
       <h1 className={` ${ titleFont.className} antialiased text-4xl font-semibold my-10`}>{ title }</h1>
