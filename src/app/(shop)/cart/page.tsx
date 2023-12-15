@@ -24,7 +24,7 @@ const CartPage = () => {
 
                <div className="flex flex-col mt-5">
                   <span className="text-xl">Agregar mas items</span>
-                  <Link href={Page.Home}>Continua comprando</Link>
+                  <Link href={Page.Home} className="hover:underline mb-3">Continua comprando</Link>
                
                   {
                      productsInCart.map( product => (
@@ -33,6 +33,7 @@ const CartPage = () => {
                               src={`/images/products/${product.images[0]}`}
                               width={100}
                               height={100}
+                              style={{ width: '100px', height: '100px' }}
                               alt={product.title}
                               className="mr-5 rounded"
                            />
@@ -48,6 +49,27 @@ const CartPage = () => {
                      ))
                   }
                </div>
+
+               {/* Checkout - Resumen de la orden */}
+               <div className="bg-white rounded-xl p-7">
+                  <h2 className="text-2xl mb-2">Resumen de orden</h2>
+                  <div className="grid grid-cols-2">
+                     <span>No. Productos</span>
+                     <span className="text-right">3 articulos</span>
+                     <span>Subtotal</span>
+                     <span className="text-right">$ 100</span>
+                     <span>Impuestos (15%)</span>
+                     <span className="text-right">$ 100</span>
+                     <span className="mt-5 text-2xl">Total:</span>
+                     <span className="mt-5 text-2xl text-right">$ 100</span>
+                  </div>
+
+                  <div className="mt-5 mb-2 w-full">
+                     <Link href={Page.CheckoutAddress} className="flex btn-primary justify-center">Checkout</Link>
+                  </div>
+
+               </div>
+
             </div>
 
          </div>

@@ -1,10 +1,11 @@
 export enum Page {
-   Home = "/",
-   Category = "/category",
-   Search = "/search",
-   Cart = "/cart",
+   AdminUsers ="/products",
    AuthLogin = "/auth/login",
+   Cart = "/cart",
+   Category = "/category",
+   CheckoutAddress ="/checkout/address",
+   Home = "/",
    Orders ="/orders",
    Products ="/products",
-   AdminUsers ="/products",
+   Search = "/search",
 }
