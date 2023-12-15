@@ -1,3 +1,4 @@
+import { Footer } from "@/features/presentation/components/ui/footer/Footer"
 import { Sidebar } from "@/features/presentation/components/ui/sidebar/Sidebar"
 import { TopMenu } from "@/features/presentation/components/ui/top-menu/TopMenu"
 
@@ -16,7 +17,8 @@ const ShopLayout = ({
          <div className="px-0 md:px-10">
             { children }
          </div>
-
+         
+         <Footer/>
       </main>
    )
 }
