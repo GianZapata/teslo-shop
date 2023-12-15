@@ -1,5 +1,5 @@
-import { TopMenu } from "@/features/presentation"
 import { Sidebar } from "@/features/presentation/components/ui/sidebar/Sidebar"
+import { TopMenu } from "@/features/presentation/components/ui/top-menu/TopMenu"
 
 const ShopLayout = ({
    children,
@@ -9,7 +9,7 @@ const ShopLayout = ({
    return (
       <main className="min-h-screen">
 
-         <TopMenu/>
+         <TopMenu />
 
          <Sidebar />
 

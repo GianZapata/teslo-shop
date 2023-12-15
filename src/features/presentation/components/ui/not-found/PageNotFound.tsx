@@ -1,10 +1,10 @@
 import Link from "next/link"
 import Image from "next/image";
 
-import { titleFont } from "@/config/fonts";
-import { Page } from "@/config/enums";
+import { titleFont } from "@/config/fonts/fonts";
 
 import starmanImage from '@/assets/images/starman_750x750.png'
+import { Page } from "@/config/enums/page.enum";
 
 export const PageNotFound = () => {
    return (

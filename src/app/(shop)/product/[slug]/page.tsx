@@ -1,14 +1,14 @@
 
 import { FC } from "react"
-import { initialData } from "@/config/seed"
 import { notFound } from "next/navigation"
-import { titleFont } from "@/config/fonts"
+import { titleFont } from "@/config/fonts/fonts"
 
 
-import { SizeSelector } from "@/features/presentation"
-import { QuantitySelector } from '@/features/presentation/components/product/quantity-selector/QuantitySelector'
-import { ProductSlideshow } from "@/features/presentation/components/product/slideshow/ProductSlideshow"
+import { initialData } from "@/config/seed/seed"
 import { ProductMobileSlideshow } from "@/features/presentation/components/product/slideshow/ProductMobileSlideshow"
+import { ProductSlideshow } from "@/features/presentation/components/product/slideshow/ProductSlideshow"
+import { QuantitySelector } from '@/features/presentation/components/product/quantity-selector/QuantitySelector'
+import { SizeSelector } from "@/features/presentation/components/product/size-selector/SizeSelector"
 
 
 interface Props {

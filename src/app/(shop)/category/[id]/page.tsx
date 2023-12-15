@@ -1,8 +1,11 @@
 import { FC } from "react"
 import { notFound } from "next/navigation"
-import { Category } from "@/features/domain"
-import { ProductGrid, Title } from "@/features/presentation"
-import { initialData } from "@/config/seed"
+
+import { initialData } from "@/config/seed/seed"
+import { Category } from "@/features/domain/enums/categories"
+import { Title } from "@/features/presentation/components/ui/title/Title"
+import { ProductGrid } from "@/features/presentation/components/products/product-grid/ProductGrid"
+
 
 interface CategoryPageProps {
    params: {

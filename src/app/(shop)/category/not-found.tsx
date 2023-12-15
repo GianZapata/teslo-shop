@@ -1,7 +1,7 @@
-import { PageNotFound } from "@/features/presentation"
+import { PageNotFound } from "@/features/presentation/components/ui/not-found/PageNotFound"
 
 const NotFoundPage = () => {
-   return <PageNotFound/>
+   return <PageNotFound />
 }
 
 export default NotFoundPage

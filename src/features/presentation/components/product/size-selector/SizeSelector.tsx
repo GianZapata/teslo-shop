@@ -2,7 +2,8 @@
 import type { FC } from "react"
 import clsx from "clsx"
 
-import type { Size } from "@/features/domain"
+import type { Size } from "@/features/domain/interfaces/product.interface"
+
 
 interface Props {
    selectedSize: Size,

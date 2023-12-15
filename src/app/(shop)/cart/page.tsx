@@ -1,9 +1,10 @@
 import Link from "next/link"
-import { Title } from "@/features/presentation"
-import { Page } from "@/config/enums"
-import { initialData } from "@/config/seed"
 import Image from "next/image"
-import { QuantitySelector } from '../../../features/presentation/components/product/quantity-selector/QuantitySelector';
+
+import { Page } from "@/config/enums/page.enum"
+import { initialData } from "@/config/seed/seed"
+import { QuantitySelector } from '@/features/presentation/components/product/quantity-selector/QuantitySelector';
+import { Title } from "@/features/presentation/components/ui/title/Title";
 
 const productsInCart = [
    initialData.products[0],

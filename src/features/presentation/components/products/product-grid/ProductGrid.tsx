@@ -1,6 +1,6 @@
-import { Product } from '@/features/domain'
 import { FC } from 'react'
 import { ProductGridItem } from './ProductGridItem'
+import { Product } from '@/features/domain/interfaces/product.interface'
 
 interface ProductGridProps {
    products: Product[]

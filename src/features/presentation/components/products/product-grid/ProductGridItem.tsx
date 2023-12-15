@@ -4,7 +4,8 @@ import { FC, useState } from "react"
 import Image from "next/image"
 import Link from "next/link"
 
-import { Product } from "@/features/domain"
+import { Product } from "@/features/domain/interfaces/product.interface"
+
 
 interface ProductGridItemProps {
    product: Product

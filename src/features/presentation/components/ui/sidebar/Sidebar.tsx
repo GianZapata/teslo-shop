@@ -2,10 +2,11 @@
 
 import clsx from "clsx"
 import Link from "next/link"
+
 import { IoCloseOutline, IoLogInOutline, IoLogOutOutline, IoPeopleOutline, IoPersonOutline, IoSearchOutline, IoShirtOutline, IoTicketOutline } from "react-icons/io5"
 
-import { Page } from "@/config/enums"
-import { useUIStore } from "@/features/presentation"
+import { Page } from "@/config/enums/page.enum"
+import { useUIStore } from "@/features/presentation/store/ui/ui.store"
 
 export const Sidebar = () => {
 

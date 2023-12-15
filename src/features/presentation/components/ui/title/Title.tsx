@@ -1,5 +1,5 @@
 import { FC, HTMLAttributes } from "react";
-import { titleFont } from "@/config/fonts";
+import { titleFont } from "@/config/fonts/fonts";
 
 interface TitleProps {
   title: string;

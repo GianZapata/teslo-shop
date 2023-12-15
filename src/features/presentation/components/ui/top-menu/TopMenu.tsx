@@ -3,10 +3,10 @@
 import Link from "next/link"
 import { IoSearchOutline, IoCartOutline }from 'react-icons/io5'
 
-import { useUIStore } from "@/features/presentation"
-import { Page } from "@/config/enums"
-import { titleFont } from "@/config/fonts"
-import { Category } from "@/features/domain"
+import { titleFont } from "@/config/fonts/fonts"
+import { Page } from "@/config/enums/page.enum"
+import { useUIStore } from "@/features/presentation/store/ui/ui.store"
+import { Category } from "@/features/domain/enums/categories"
 
 export const TopMenu = () => {
 

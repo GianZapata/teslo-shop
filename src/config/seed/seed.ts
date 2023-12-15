@@ -1,4 +1,4 @@
-import { Category } from "@/features/domain";
+import { Category } from "@/features/domain/enums/categories";
 
 interface SeedProduct {
     description : string;

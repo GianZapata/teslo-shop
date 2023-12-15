@@ -1,4 +1,4 @@
-import type { Category } from "../enums";
+import type { Category } from "../enums/categories";
 
 export interface Product {
    // id: string;
