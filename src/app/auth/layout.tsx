@@ -5,7 +5,11 @@ const ShopLayout = ({
    children: React.ReactNode
 }) => {
    return (
-      <main className="bg-green-500 min-h-screen">{ children }</main>
+      <main className="flex justify-center">
+         <div className="w-full md:max-w-md">
+            { children }
+         </div>
+      </main>
    )
 }
 
