@@ -8,4 +8,5 @@ export enum Page {
    Orders ="/orders",
    Products ="/products",
    Search = "/search",
+   Empty = "/empty"
 }
