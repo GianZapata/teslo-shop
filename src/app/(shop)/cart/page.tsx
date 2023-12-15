@@ -55,7 +55,7 @@ const CartPage = () => {
                </div>
 
                {/* Checkout - Resumen de la orden */}
-               <div className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow">
+               <div className="h-96 block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow">
                   <h2 className="text-2xl mb-2">Resumen de orden</h2>
 
                   <div
